@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Front-End</title>
+</head>
+<body onselectstart="return false">
+    <div class="container">
+
+        <!-- Cabeçalho -->
+        <h1>Html, CSS e Javascript</h1>
+        <!-- qual sexo -->
+        <div class="qual-sexo">
+            <div class="formulario-rosa">
+                <label for="pnome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" placeholder="seu nome" style="height:24px;" maxlength="15" minlength="3"> 
+
+                <label>
+                    <input type="radio" id="feminino" name="sexo" value="menina"> menina <br>
+                </label>
+
+                <label>
+                    <input type="radio" id="masculino" name="sexo" value="menino"> menino <br>
+                </label>
+                              
+                <button id="botao-enviar">Enviar</button>
+            </div>
+            <div class="resposta-sexo">
+                <h2 id="mensagem"></h2>
+            </div>
+        </div>
+        <!-- Caixas coloridas -->
+        <div class="caixas-coloridas">
+            <div style="background-color: red; width: 220px; height: 80px; border: 1px solid black;"></div>
+            <div style="background-color: blue; width: 220px; height: 80px; border: 1px solid black;"></div>
+            <div style="background-color: yellow; width: 220px; height: 80px; border: 1px solid black;"></div>
+            <div style="background-color: green; width: 220px; height: 80px; border: 1px solid black;"></div>
+            <div style="background-color: white; width: 220px; height: 80px; border: 1px solid black;"></div>
+            <div style="background-color: black; width: 220px; height: 80px; border: 1px solid black;"></div>
+
+        </div>
+
+        <div class="formulario-cores">
+            
+            <ul>
+                <p>Cores Preferidas:</p>
+                <li><input type="checkbox"> Vermelho</li> 
+                <li><input type="checkbox"> Azul</li>  
+                <li><input type="checkbox"> Amarelo</li> 
+                <li><input type="checkbox"> Verde</li> 
+                <li><input type="checkbox"> Branco</li> 
+                <li><input type="checkbox"> Preto</li>      
+            </ul>
+        </div>
+        <!-- Quando nasceu -->
+        <div class="qual-idade">
+            <div class="dia-hoje">
+                <p>Que dia é hoje?</p>
+                <button>Quando clicar abrir calendário</button>
+            </div>
+            <div ano-nascimento>
+                <p>Quando você nasceu?</p>
+                <button>Quando clicar abrir calendário</button>
+            </div>
+            
+            <button class="botao-calcular">calcular</button>
+        </div>
+
+        <div class="resposta-idade">
+            Você tem x anos de idade!
+        </div>
+        <!-- Mensagem de despedida -->
+        <div class="mensagem-despedida">
+            <p>Quando chegar aqui você  estará arrepiando no front-end!</p>
+            <select name="" id="">
+                <option value="">Selecione uma mensagem de despedida</option>
+            </select>
+
+            <button>Finalizar</button>
+        </div>
+
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
