@@ -84,6 +84,48 @@
         border: 1px solid black;
         margin-right: 10px;
     }
+
+    .box-vermelho{
+        background-color: red;
+        width: 220px;
+        height: 80px;
+        border: 1px solid black;
+    }
+
+    .box-azul{
+        background-color: blue;
+        width: 220px;
+        height: 80px;
+        border: 1px solid black;        
+    }
+
+    .box-amarelo{
+        background-color: yellow;  
+        width: 220px;
+        height: 80px;
+        border: 1px solid black;      
+    }
+
+    .box-verde{
+        background-color: green;
+        width: 220px;
+        height: 80px;
+        border: 1px solid black;       
+    }
+
+    .box-branco{
+        background-color: white;  
+        width: 220px;
+        height: 80px;
+        border: 1px solid black;     
+    }
+
+    .box-preto{
+        background-color: black;
+        width: 220px;
+        height: 80px;
+        border: 1px solid black;     
+    }
     
     .formulario-cores{
         background-color: rgb(228, 102, 240);
