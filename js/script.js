@@ -1,7 +1,7 @@
 var nome = document.getElementById("nome");
 var botao = document.querySelector("#botao-enviar");
-var sexo;
-var prefixo;
+
+
 
 
 
