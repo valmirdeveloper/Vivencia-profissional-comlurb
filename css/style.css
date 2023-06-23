@@ -86,7 +86,7 @@
     }
 
     .box-vermelho{
-        background-color: red;
+        background-color: rgb(197, 189, 189);
         width: 220px;
         height: 80px;
         border: 1px solid black;
