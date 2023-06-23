@@ -2,6 +2,7 @@ var nome = document.getElementById("nome");
 var botao = document.querySelector("#botao-enviar");
 
 
+     //             Formulário sexo            //
 
 
     botao.addEventListener("click", (e) => {
@@ -19,17 +20,27 @@ var botao = document.querySelector("#botao-enviar");
     })
 
 
-
+        //        Caixas coloridas      //
 
     var caixaVermelha = document.getElementById("#caixaVermelha");
     var input = document.getElementById("#checkboxVermelho");
 
     checkboxVermelho.addEventListener("click", (e) => {
-        if(document.getElementById("checkboxVermelho").checked){           
+        if(document.getElementById("checkboxVermelho").checked){ 
 
+            document.getElementById("caixaVermelha").style.backgroundColor = "red";
+
+        } else {
+
+            document.getElementById("caixaVermelha").style.backgroundColor = "rgb(197, 189, 189)";
         }
 
-        document.getElementById("caixaVermelha").style.backgroundColor = "red";
+            
+        
+            
+        
+
+        
 
         
     })
