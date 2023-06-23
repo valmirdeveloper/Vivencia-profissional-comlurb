@@ -30,19 +30,28 @@ var botao = document.querySelector("#botao-enviar");
 
             document.getElementById("caixaVermelha").style.backgroundColor = "red";
 
-        } else {
+        }else {
 
             document.getElementById("caixaVermelha").style.backgroundColor = "rgb(197, 189, 189)";
-        }
+        }            
+         
+    })
 
-            
-        
-            
-        
 
-        
 
-        
+    var caixaAzul = document.getElementById("#caixaAzul");
+    var input = document.getElementById("#checkboxAzul");
+
+    checkboxAzul.addEventListener("click", (e) => {
+        if(document.getElementById("checkboxAzul").checked){ 
+
+            document.getElementById("caixaAzul").style.backgroundColor = "blue";
+
+        }else {
+
+            document.getElementById("caixaAzul").style.backgroundColor = "rgb(197, 189, 189)";
+        }            
+         
     })
    
    
