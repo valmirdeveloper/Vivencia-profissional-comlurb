@@ -93,35 +93,35 @@
     }
 
     .box-azul{
-        background-color: blue;
+        background-color: rgb(197, 189, 189);
         width: 220px;
         height: 80px;
         border: 1px solid black;        
     }
 
     .box-amarelo{
-        background-color: yellow;  
+        background-color: rgb(197, 189, 189);  
         width: 220px;
         height: 80px;
         border: 1px solid black;      
     }
 
     .box-verde{
-        background-color: green;
+        background-color: rgb(197, 189, 189);
         width: 220px;
         height: 80px;
         border: 1px solid black;       
     }
 
     .box-branco{
-        background-color: white;  
+        background-color: rgb(197, 189, 189);  
         width: 220px;
         height: 80px;
         border: 1px solid black;     
     }
 
     .box-preto{
-        background-color: black;
+        background-color: rgb(197, 189, 189);
         width: 220px;
         height: 80px;
         border: 1px solid black;     
