@@ -4,9 +4,6 @@ var botao = document.querySelector("#botao-enviar");
 
 
 
-
-
-
     botao.addEventListener("click", (e) => {
         if(document.getElementById("feminino").checked){
             sexo = "menina";
@@ -36,5 +33,5 @@ var botao = document.querySelector("#botao-enviar");
 
         
     })
-
+   
    
