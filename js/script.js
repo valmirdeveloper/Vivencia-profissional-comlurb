@@ -1,5 +1,5 @@
 var nome = document.getElementById("nome");
-var botao = document.querySelector("#botao-enviar");
+var botao = document.getElementById("botao-enviar");
 
 
      //             Formulário sexo            //
