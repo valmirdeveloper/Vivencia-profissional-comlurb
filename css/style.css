@@ -132,9 +132,10 @@
         width: 203px;
         margin-top: 10px;
         border: 1px solid black;
-        color: rgb(252, 210, 73); 
-           
+        color: rgb(252, 210, 73);           
     }
+
+
     
     .formulario-cores ul {
         color: black;
@@ -149,6 +150,8 @@
         font-weight: bold;
         font-size: 18px; 
     }
+
+    
     
     /* Quando nasceu */
     .qual-idade{
