@@ -375,7 +375,7 @@ botao2.addEventListener('click', function (){
  });
 
 
- gabarito://////::::    jquery//////  criar o arquivo jquery-3.5.0.min.js e depois colar:....////
+ gabarito://////::::    jquery//////  criar uma pasta com nome: jquery  como arquivo jquery-3.5.0.min.js e depois colar:....////
 
 
 
