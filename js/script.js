@@ -1,22 +1,23 @@
+
+//Selecionar o elemento pelo id //
 var nome = document.getElementById("nome");
-var botao = document.getElementById("botao-enviar");
+var botao = document.getElementById("botao-enviar"); 
 
 
      //             Formulário sexo            //
 
 
-    botao.addEventListener("click", (e) => {
-        if(document.getElementById("feminino").checked){
-            sexo = "menina";
-            prefixo = "uma";
+    botao.addEventListener("click", (e) => {  //Atribuir evento de click ao elemmento botao//
+        if(document.getElementById("feminino").checked){ //Se o elemento input type radio "feminino" for checado//
+            sexo = "menina"; //faça isso//
+            prefixo = "uma"; //faça isso//
 
-        }else if(document.getElementById("masculino").checked){
-            sexo = "menino";
-            prefixo = "um";  
-       
+        }else if(document.getElementById("masculino").checked){ //Se não se, o elemento input type radio "masculino" for checado//
+            sexo = "menino"; //faça isso//
+            prefixo = "um";  //faça isso//      
         }
 
-        document.getElementById("mensagem").innerHTML = "Olá " + nome.value + ", " + "você é " + prefixo +" " + sexo + "!";
+        document.getElementById("mensagem").innerHTML = `Olá ${nome.value}, você é ${prefixo} ${sexo}.`  //Template string //
     })
 
 
