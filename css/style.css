@@ -220,3 +220,11 @@
      #borda{
         border: 1px solid black;
      }
+
+
+
+     /* Responsividade */
+
+     @media (max-width: 1050px){
+        
+     }
