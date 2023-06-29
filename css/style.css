@@ -226,5 +226,9 @@
      /* Responsividade */
 
      @media (max-width: 1050px){
-        
+        .container{
+        width: 414px;
+        margin: auto;
+            
+        }
      }
