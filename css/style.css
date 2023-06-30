@@ -224,12 +224,12 @@
 
      /* Responsividade */
 
-     @media (max-width: 700px){
+     @media (max-width: 414px){
 
 
 
         .container{
-            width: 700px;
+            width: 414px;
             margin: auto;
             display: flex;
             flex-wrap: wrap;   
@@ -249,15 +249,46 @@
         }
 
 
+        .qual-sexo{
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 10px;
+            height: 233px;
+            
+        }
+
+
 
         .resposta-sexo{
             background-color: #96ADFF;
-            width: 487px;    
+            width: 253px;    
             color: white;
             display: flex;
             align-items: center;
             justify-content: center;
         }
+
+
+        .formulario-rosa{
+            background-color:rgb(245, 175, 212);
+            width: 150px;     
+            margin-right: 10px;   
+            
+        }
+
+
+        .formulario-rosa  input{
+            margin-top: 10px;
+            width: 130px;
+              
+        }
+
+
+
+        #mensagem{
+            font-size: 20px;
+        }
+        
 
 
         
