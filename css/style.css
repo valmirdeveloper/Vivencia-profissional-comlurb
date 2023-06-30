@@ -226,7 +226,12 @@
 
      @media (max-width: 400px){
 
-        
+        .container{
+            width: 1024px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;   
+        }
 
 
      }
