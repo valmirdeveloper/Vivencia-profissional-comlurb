@@ -35,26 +35,38 @@
         </div>
         <!-- Caixas coloridas -->
         <div id="borda" class="caixas-coloridas">
-            <div class="box-vermelho" id="caixaVermelha"></div>
-            <div class="box-azul" id="caixaAzul"></div>
-            <div class="box-amarelo" id="caixaAmarela"></div>
-            <div class="box-verde" id="caixaVerde"></div>
-            <div class="box-branco" id="caixaBranca"></div>
-            <div class="box-preto" id="caixaPreta"></div>
+            <div class="retangulo" id="caixaVermelha"></div>
+            <div class="retangulo" id="caixaAzul"></div>
+            <div class="retangulo" id="caixaAmarela"></div>
+            <div class="retangulo" id="caixaVerde"></div>
+            <div class="retangulo" id="caixaBranca"></div>
+            <div class="retangulo" id="caixaPreta"></div>
         </div>
 
-        <div id="borda" class="formulario-cores">
+        <div id="borda" class="coresPreferidas">
+
+            <label id="corTitulo">Cores Preferidas:</label>
+            <br></br>
+
+            <form>
+                <input type="checkbox" id="checkboxVermelho" onclick="Vermelho">
+                <label>Vermelho</label><br>
+                <input type="checkbox" id="checkboxAzul" onclick="Azul">
+                <label>Azul</label><br>
+                <input type="checkbox" id="checkboxAmarelo" onclick="Amarelo">
+                <label>Amarelo</label><br>
+                <input type="checkbox" id="checkboxVerde" onclick="Verde">
+                <label>Verde</label><br>
+                <input type="checkbox" id="checkboxBranco" onclick="Branco">
+                <label>Branco</label><br>
+                <input type="checkbox" id="checkboxPreto" onclick="Preto">
+                <label>Preto</label><br>
+            </form>
             
-            <ul>
-                <p>Cores Preferidas:</p>
-                <li><input class="form-check-input" type="checkbox" id="checkboxVermelho"> Vermelho</li> 
-                <li><input type="checkbox" id="checkboxAzul"> Azul</li>  
-                <li><input type="checkbox" id="checkboxAmarelo"> Amarelo</li> 
-                <li><input type="checkbox" id="checkboxVerde"> Verde</li> 
-                <li><input type="checkbox" id="checkboxBranco"> Branco</li> 
-                <li><input type="checkbox" id="checkboxPreto"> Preto</li>      
-            </ul>
         </div>
+
+
+        
 
 
         <!-- Quando nasceu -->
